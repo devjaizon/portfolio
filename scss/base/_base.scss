@@ -1,0 +1,50 @@
+html, body {
+	height: 100%;
+	max-width: 100%;
+	min-width: 430px;
+	color: white;
+	padding-top: 27px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	h1 {
+		font-family: 'Inconsolata', monospace;
+		font-size: 3rem;
+	}
+	p {
+		margin-top: 1.75rem;
+		font-family: 'Roboto Mono', monospace;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	h1 {
+		font-family: 'Inconsolata', monospace;
+		font-size: 4rem;
+	}
+	p {
+		margin-top: 1.75rem;
+		font-family: 'Roboto Mono', monospace;
+	}
+	#about-img {
+		margin-left: 25%;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	h1 {
+		font-family: 'Inconsolata', monospace;
+		font-size: 5rem;
+	}
+	p {
+		margin-top: 1.75rem;
+		font-family: 'Roboto Mono', monospace;
+	}
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

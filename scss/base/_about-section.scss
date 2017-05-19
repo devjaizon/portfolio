@@ -1,0 +1,35 @@
+.about {
+    height: auto;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: black;
+    padding-top: 27px;
+}
+
+.about-container {
+    width: 90%;
+    margin: 3rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#about-img {
+    background-image: url("../img/320x180.png");
+    width: 320px;
+    height: 180px;
+    border: 2px solid black;
+    -webkit-box-shadow: 2px 2px 2px gray;
+    box-shadow: 2px 2px 2px gray;
+}
