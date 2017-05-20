@@ -5,21 +5,21 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	width: 100%;
 }
 
 .footer-content {
 
-	margin: 1rem 0 1.5rem 0;
 }
 
 .social {
 	display: inline;
-	white-space: 20px;
+/*	white-space: 20px;*/
 }
 .fa {
 	color: #f8e810;
 }
-.fa-lg:hover {
+.fa-md:hover {
 	cursor: pointer;
 	color: #fc2b04;
 }
