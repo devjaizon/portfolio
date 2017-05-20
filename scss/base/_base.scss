@@ -5,15 +5,32 @@ html, body {
 	margin-top: 27px;
 }
 
+@media  (min-width: 320px) {
+	h1{
+		font-family: 'Inconsolata', monospace;
+		font-size: 2rem;
+	}
+	p {
+		margin-top: 1.75rem;
+		font-family: 'Roboto Mono', monospace;
+	}
+	.projects-header h2 {
+		font-size: 2.5rem;
+	}
+}
+
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-	h1 {
+@media  (min-width: 576px) {
+	h1{
 		font-family: 'Inconsolata', monospace;
 		font-size: 3rem;
 	}
 	p {
 		margin-top: 1.75rem;
 		font-family: 'Roboto Mono', monospace;
+	}
+	.projects-header h2 {
+		font-size: 3rem;
 	}
 }
 
@@ -30,6 +47,9 @@ html, body {
 	#about-img {
 		margin-left: 25%;
 	}
+	.projects-header h2 {
+		font-size: 3rem;
+	}
 }
 
 // Large devices (desktops, 992px and up)
@@ -41,6 +61,9 @@ html, body {
 	p {
 		margin-top: 1.75rem;
 		font-family: 'Roboto Mono', monospace;
+	}
+	.projects-header h2 {
+		font-size: 3rem;
 	}
 }
 
