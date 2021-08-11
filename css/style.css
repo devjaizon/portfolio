@@ -38,6 +38,8 @@ nav {
     padding: 1rem 3rem;
     top: 0;
     left: 0;
+    box-shadow: #ffffff7c 1px 0px 2px;
+    /* border-bottom: #24d5fe 1px solid; */
 }
 
 .nav_container {
