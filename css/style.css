@@ -1,8 +1,5 @@
 /* Variables */
 
-:root {
-}
-
 /* Reset & Default */
 
 * {
@@ -357,7 +354,7 @@ footer .container > * {
 .fa-md:hover {
     cursor: pointer;
     color: #24d5fe;
-    text-shadow: #fff 0px 0px 2ssssssssssssssspx;
+    text-shadow: #fff 0px 0px 2px;
 }
 
 #me {
