@@ -15,7 +15,6 @@ navToggle.addEventListener('click', () => {
 
 navLink.forEach((item) => {
     item.addEventListener('click', () => {
-        console.log('1')
         navOpen = false
         changeNav()
     })
