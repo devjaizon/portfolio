@@ -338,7 +338,7 @@ footer {
 }
 
 footer .container {
-    padding: 80px 1rem;
+    padding: 40px 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
